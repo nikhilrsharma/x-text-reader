@@ -6,7 +6,7 @@ Status: Implemented baseline for the open source release
 
 Date: 27 November 2026
 
-X Text Reader is a Tampermonkey userscript that makes X easier to read: a wide text-first feed, media revealed on demand, inline expansion of long posts, and a combined reader for detected threads. It works within the X website and uses posts available to the current visitor. It has no separate account, server, analytics service, or AI service.
+X Text Reader is a Tampermonkey userscript that makes X (Twitter) easier to read: a wide text-first feed, media revealed on demand, inline expansion of long posts, and a combined reader for detected threads. It works within the X website and uses posts available to the current visitor. It has no separate account, server, analytics service, or AI service.
 
 ## Problem and audience
 

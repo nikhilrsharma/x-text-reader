@@ -2,7 +2,7 @@
   "name": "x-text-reader",
   "version": "6.1.1",
   "private": true,
-  "description": "A full-width, text-first X userscript with an on-demand thread reader and local reading preferences.",
+  "description": "A full-width, text-first X (Twitter) userscript with an on-demand thread reader and local reading preferences.",
   "license": "MIT",
   "author": "Nikhil Sharma",
   "repository": {

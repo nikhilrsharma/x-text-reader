@@ -2,7 +2,7 @@
 
 ## 6.1.1
 
-Initial public open source release of the existing personal userscript.
+Initial public open source release of the existing personal userscript for X (Twitter).
 
 - Full-width feed with a compact navigation rail and hidden right sidebar.
 - Optional media reveal and repaired carousel spacing.

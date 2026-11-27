@@ -1,6 +1,6 @@
 # X Text Reader
 
-A text-first, full-width X feed with optional media, long-post expansion, and a reader for connected threads. Runs locally as a Tampermonkey userscript. No backend, account, API key, or AI service is required beyond your normal access to X.
+A text-first, full-width X (Twitter) feed with optional media, long-post expansion, and a reader for connected threads. Runs locally as a Tampermonkey userscript. No backend, account, API key, or AI service is required beyond your normal access to X.
 
 [Install the userscript](https://raw.githubusercontent.com/nikhilrsharma/x-text-reader/main/dist/x-text-reader.user.js) · [Latest release](https://github.com/nikhilrsharma/x-text-reader/releases/latest) · [Product requirements](docs/PRD.md) · [Report an issue](https://github.com/nikhilrsharma/x-text-reader/issues)
 
@@ -85,4 +85,4 @@ See [Contributing](CONTRIBUTING.md) and the [changelog](CHANGELOG.md). Automated
 
 ## License
 
-[MIT](LICENSE). Created by Nikhil Sharma. This is an independent project and is not affiliated with X, Brave, or Tampermonkey.
+[MIT](LICENSE). Created by Nikhil Sharma. This is an independent project and is not affiliated with X (Twitter), Brave, or Tampermonkey.

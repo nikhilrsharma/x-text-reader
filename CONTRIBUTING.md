@@ -1,6 +1,6 @@
 # Contributing to X Text Reader
 
-Bug reports and focused improvements are welcome. Include the browser, operating system, userscript manager, script version, and steps to reproduce. Share a public example only when appropriate; remove personal information from screenshots and logs. Never include cookies, access tokens, or private post content.
+Bug reports and focused improvements to this X (Twitter) userscript are welcome. Include the browser, operating system, userscript manager, script version, and steps to reproduce. Share a public example only when appropriate; remove personal information from screenshots and logs. Never include cookies, access tokens, or private post content.
 
 ## Making a change
 

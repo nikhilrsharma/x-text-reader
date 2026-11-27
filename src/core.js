@@ -5,7 +5,7 @@
 // @license      MIT
 // @homepageURL  https://github.com/nikhilrsharma/x-text-reader
 // @supportURL   https://github.com/nikhilrsharma/x-text-reader/issues
-// @description  Full-width text-first X with a thread reader, long-post expansion, local reading settings, and optional media. No external services.
+// @description  Full-width text-first X (Twitter) with a thread reader, long-post expansion, local reading settings, and optional media. No external services.
 // @match        https://x.com/*
 // @match        https://twitter.com/*
 // @match        https://mobile.twitter.com/*
