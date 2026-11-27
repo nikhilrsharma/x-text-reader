@@ -1,0 +1,21 @@
+{
+  "name": "x-text-reader",
+  "version": "6.1.1",
+  "private": true,
+  "description": "A full-width, text-first X userscript with an on-demand thread reader and local reading preferences.",
+  "license": "MIT",
+  "author": "Nikhil Sharma",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikhilrsharma/x-text-reader.git"
+  },
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check && node --check dist/x-text-reader.user.js",
+    "test:unit": "node tests/reader-data-test.cjs",
+    "test:browser": "node tests/regression.cjs && node tests/reader-regression.cjs && node tests/reader-data-dom-test.cjs && node tests/settings-regression.cjs",
+    "test": "npm run check && npm run test:unit && npm run test:browser"
+  },
+  "devDependencies": { "playwright": "1.62.1" }
+}

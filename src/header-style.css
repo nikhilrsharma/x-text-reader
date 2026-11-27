@@ -1,0 +1,76 @@
+    .xt6-list-header .xt6-list-info {
+      display: flex !important;
+      flex-flow: row wrap !important;
+      align-items: center !important;
+      justify-content: flex-start !important;
+      gap: 8px 12px !important;
+      padding: 10px 16px !important;
+      min-height: 0 !important;
+    }
+    .xt6-list-info > * { margin: 0 !important; }
+    .xt6-list-info > .xt6-list-title {
+      order: 0;
+      flex: 1 1 180px;
+      text-align: left !important;
+      justify-content: flex-start !important;
+      font-size: 17px !important;
+      line-height: 1.3 !important;
+    }
+    .xt6-list-title * { font-size: inherit !important; line-height: inherit !important; }
+    .xt6-list-info > .xt6-list-stats {
+      order: 1;
+      flex: 0 1 auto !important;
+      display: flex !important;
+      flex-flow: row wrap !important;
+      gap: 8px;
+      font-size: 13px !important;
+    }
+    .xt6-list-stats * { font-size: inherit !important; }
+    .xt6-list-info > .xt6-list-action {
+      order: 2;
+      min-height: 28px !important;
+      padding: 3px 10px !important;
+      font-size: 13px !important;
+    }
+    .xt6-list-action * { font-size: inherit !important; }
+    .xt6-list-info > .xt6-list-detail {
+      order: 4;
+      flex: 1 0 100%;
+      max-width: 100%;
+      text-align: left !important;
+      font-size: 14px !important;
+      line-height: 1.4 !important;
+    }
+    .xt6-list-detail * { font-size: inherit !important; }
+    .xt6-list-header:not(.xt6-list-details-open) .xt6-list-detail,
+    .xt6-list-header:not(.xt6-list-cover-open) .xt6-list-cover {
+      display: none !important;
+    }
+    .xt6-list-header.xt6-list-cover-open .xt6-list-cover {
+      display: block !important;
+      height: 100px !important;
+      max-height: 100px !important;
+      min-height: 0 !important;
+      overflow: hidden !important;
+    }
+    .xt6-list-cover img { object-fit: cover !important; }
+    .xt6-list-info > .xt6-list-controls {
+      order: 3;
+      flex: 1 0 100%;
+      display: flex;
+      flex-flow: row wrap;
+      gap: 6px 12px;
+    }
+    .xt6-list-controls button {
+      appearance: none;
+      border: 0;
+      border-radius: 4px;
+      padding: 3px 0;
+      min-height: 24px;
+      background: transparent;
+      color: rgb(29, 155, 240);
+      font: 500 12px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      cursor: pointer;
+    }
+    .xt6-list-controls button:hover { text-decoration: underline; }
+    .xt6-list-controls button:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
